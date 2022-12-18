@@ -1,0 +1,157 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--bg-footer-color);
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.footer__container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.footer_address-soc {
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 74px;
+    padding-left: 61px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.footer__address-wrapper {
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 165px) / 2);
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 231px;
+    margin-right: 70px;
+  }
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    justify-content: left;
+  }
+}
+
+.footer__logo-text {
+  margin-bottom: 0;
+  color: var(--logo-footer-text-color);
+}
+
+/* footer__soc */
+
+.footer__soc-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1429;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--address-footer-color);
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.footer__soc-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer__soc-icon {
+  fill: var(--address-footer-color);
+}
+
+/* caption */
+
+.caption {
+  @media screen and (min-width: 768px) {
+    padding-right: 152px;
+    padding-left: 166px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.caption__text {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1429;
+  color: var(--address-footer-color);
+  text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.caption__form {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.caption__input-wraper {
+  margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 12px;
+    margin-bottom: 0;
+  }
+}
+
+.caption__input-label {
+  display: block;
+}
+
+.caption__input {
+  width: 100%;
+  height: 50px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  &:focus {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
+}
+
+.caption__button {
+  display: flex;
+  margin: 0 auto;
+  min-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption__icon {
+  margin-left: 10px;
+  fill: var(--button-text-color);
+}

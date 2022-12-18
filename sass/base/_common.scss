@@ -1,0 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

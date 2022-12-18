@@ -1,0 +1,42 @@
+.address__item {
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.address__item:last-child {
+  margin-bottom: 0;
+}
+
+.address__link,
+.address__contact {
+  font-size: 14px;
+  line-height: 1.7143;
+  text-decoration: none;
+  font-style: normal;
+
+  transition: color var(--transition-duration-cubic);
+}
+
+.address__link {
+  color: var(--address-footer-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.address__contact {
+  color: var(--contact-footer-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
